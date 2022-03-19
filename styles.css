@@ -2,7 +2,7 @@
 *{
   box-sizing: border-box;
 }
-/*gets rid of margins and padding*/
+/*gets rid of margins and padding. Formats background and text color*/
 html,body {
   margin:0;
  color: rgb(0, 0, 0);
@@ -10,13 +10,11 @@ html,body {
   background-color: darkslategrey;
 }
 
-header, { border-bottom: 2px solid gray;
+nav{
+  display: inline;
   position: sticky;
   top: 0;
-  padding: 2px;
-  z-index: 1;
-  background-color: white;
-  display: inline-block;
+}
 
 }
 
