@@ -5,8 +5,12 @@
 
 body{
   background-color: darkslategrey;
+  text-align: center;
 }
 
+ul {
+  list-style: none;
+}
 /*format font*/
 html {
  color: rgb(0, 0, 0);
@@ -50,10 +54,11 @@ main{
 /*format picture center*/
 #img{
   display: block;
+  border-radius: 20%;
   margin-left: auto;
   margin-right: auto;
   width:30%;
 }
 #contact > ul > li{
-  list-style: circle;
+  list-style: none;
 }
